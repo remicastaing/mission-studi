@@ -20,7 +20,7 @@ require_once 'modeles/DAONationalite.php';
 $nom_objet = 'Contact';
 $nom_objets = 'contacts';
 $lien = 'contact.php';
-$titre_create = "Modification d'un contact";
+$titre_create = "Ajouter un contact";
 $lien_create = 'contact.php?action=create';
 $lien_delete = 'contact.php?action=delete';
 

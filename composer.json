@@ -1,6 +1,6 @@
 {
   "require" : {
-    "apache/log4php": "2.3.0"
+    "monolog/monolog": "^2.8"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"

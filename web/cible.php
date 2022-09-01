@@ -19,7 +19,7 @@ require_once 'modeles/DAONationalite.php';
 $nom_objet = 'Cible';
 $nom_objets = 'cibles';
 $lien = 'cible.php';
-$titre_create = "Modification d'une cible";
+$titre_create = "Ajouter une cible";
 $lien_create = 'cible.php?action=create';
 $lien_delete = 'cible.php?action=delete';
 
