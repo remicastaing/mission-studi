@@ -34,16 +34,16 @@
 
                     </hr>
                     <h5>Cibles:</h5>
-                    <?= echoTable($mission->cible, $colonnesCible, $lien_cible, 'table-danger') ?>
+                    <?= $tableCibles ?>
                     <hr>
                     <h5>Agents:</h5>
-                    <?= echoTable($mission->agent, $colonnesAgent, $lien_agent) ?>
+                    <?= $tableAgents ?>
                     </hr>
                     <h5>Contacts</h5>
-                    <?= echoTable($mission->contact, $colonnesContact, $lien_contact) ?>
+                    <?= $tableContacts ?>
                     <hr>
                     <h5>Planques:</h5>
-                    <?= echoTable($mission->planque, $colonnesPlanque, $lien_planque) ?>
+                    <?= $tablePlanques ?>
                 </div>
                 <div class="card-footer">
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">

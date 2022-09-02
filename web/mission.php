@@ -7,7 +7,7 @@ require_once 'util/utilitaires.php';
 require_once 'util/logger.php';
 require_once 'util/table.php';
 require_once 'modeles/connexion.php';
-require_once 'util/form.php';
+require_once 'util/form/form.php';
 
 
 require_once 'modeles/DAOMission.php';
@@ -234,6 +234,15 @@ switch ($action) {
             $mission->cible = $daoMission->getCibles($id);
             $mission->contact = $daoMission->getContacts($id);
             $mission->planque = $daoMission->getPlanques($id);
+
+
+            $tableCibles = new Table($mission->cible, $colonnesCible, $lien_cible, 'table-danger');
+
+            $tableAgents = new Table($mission->agent, $colonnesAgent, $lien_agent);
+
+            $tableContacts = new Table($mission->contact, $colonnesContact, $lien_contact);
+
+            $tablePlanques= new Table($mission->planque, $colonnesPlanque, $lien_planque);
 
             require_once('vues/detail-mission.php');
         } else {

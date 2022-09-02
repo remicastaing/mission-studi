@@ -1,6 +1,5 @@
 <?php
 
-require_once('util/choix.php');
 
 class DAOGeneric
 {
