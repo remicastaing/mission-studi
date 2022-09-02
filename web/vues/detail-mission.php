@@ -3,7 +3,7 @@
 
 <?php include('./vues/common/header.html'); ?>
 
-<body class="d-flex flex-column h-100 text-white text-bg-dark">
+<body class="d-flex flex-column h-100  text-bg-dark bg-dark bg-gradient">
 
     <!-- Begin Navbar -->
     <?php include('./vues/common/nav.php'); ?>

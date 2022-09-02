@@ -3,7 +3,7 @@
 
 <?php include('./vues/common/header.html'); ?>
 
-<body class="d-flex flex-column h-100 text-white text-bg-dark">
+<body class="d-flex flex-column h-100  text-bg-dark bg-dark bg-gradient">
 
     <!-- Begin Navbar -->
     <?php include('./vues/common/nav.php'); ?>
@@ -13,7 +13,7 @@
     <main class=" flex-shrink-0">
         <div class="container">
             <div class="card w-100 text-bg-secondary ">
-            <div class="h1 card-header d-grid gap-2 d-md-flex justify-content-md-end">
+                <div class="h1 card-header d-grid gap-2 d-md-flex justify-content-md-end">
                     <div class="flex-fill">Pays</div>
                     <a href="<?= $lien ?>" class="h1 btn border-white">X</a>
                 </div>
