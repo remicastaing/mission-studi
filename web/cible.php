@@ -38,9 +38,9 @@ switch ($action) {
 
         $form = new Form([
             new Identifiant(),
+            new TextInput('code', null, 'Code'),
             new TextInput('nom', null, 'Nom'),
             new TextInput('prenom', null, 'Prenom'),
-            new TextInput('code', null, 'Code'),
             new DateInput('naissance', null, 'Date de naissance'),
             new SelectInput('nationalite', null, 'Nationalité', $choixNationalite),
         ], $lien);
