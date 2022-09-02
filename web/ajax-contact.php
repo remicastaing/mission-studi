@@ -4,6 +4,9 @@ session_start();
 
 require('../vendor/autoload.php');
 require_once 'util/utilitaires.php';
+
+checkAdmin();
+
 require_once 'util/logger.php';
 require_once 'modeles/connexion.php';
 require_once 'util/form/form.php';
